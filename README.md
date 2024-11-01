@@ -1,1 +1,3 @@
 # myOCR
+
+Please wait!
