@@ -160,6 +160,10 @@ The following figure illustrates the distribution of text lines across different
 We first uploaded the myOCR version 1.0 dataset to Hugging Face on November 18, 2024. You can access the myOCR dataset at the following link:      
 [https://huggingface.co/datasets/LULab/myOCR](https://huggingface.co/datasets/LULab/myOCR)
 
+## Conference Presentation
+
+Our work on POST-OCR error correction with the myOCR dataset was presented at the iSAI-NLP 2024 conference. The presentation slides can be accessed at: [https://github.com/ye-kyaw-thu/myOCR/blob/main/doc/slide/myOCR_isai21_v2.pdf](https://github.com/ye-kyaw-thu/myOCR/blob/main/doc/slide/myOCR_isai21_v2.pdf)  
+
 ## Citation  
 Please cite this if you use this dataset:  
 
