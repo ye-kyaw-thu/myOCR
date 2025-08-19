@@ -44,7 +44,7 @@ done
 We used 14 different Myanmar fonts for our experiments. Two random text image samples for each font are shown in the table below:    
 
 <p align="center">
-   **Table 1:** Two randomly selected text image samples for each of the 14 Myanmar fonts utilized in the study  
+   Table 1: Two randomly selected text image samples for each of the 14 Myanmar fonts utilized in the study  
 </p>
 
 | No | Font name | Text Image Sample-1 | Text Image Sample-2 |
@@ -70,9 +70,10 @@ The following figure illustrates the distribution of text lines across different
 
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myOCR/blob/main/doc/fig/pie_chart_synthetic_txt.png" alt="pie chart of synthetic text images" width="700"/>  
+      Fig.1 Number of lines of each font used in the synthetic text images
 </p>  
 <div align="center">
-   **Fig.1** Number of lines of each font used in the synthetic text images   
+   
 </div> 
 
 <br>
