@@ -39,6 +39,26 @@ do
 done
 ```
 
+## Random Samples
+
+| No | Font name | Text Image Sample-1 | Text Image Sample-2 |
+|----|-----------|---------------------|---------------------|
+| 1 | Burmese Handwriting Style 04 | ![B_HW_1245.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/B_HW_1245.png) | ![B_HW_2240.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/B_HW_2240.png) |
+| 2 | Myanmar Chatulight | ![Chatulight_1269.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Chatulight_1269.png) | ![Chatulight_867.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Chatulight_867.png) |
+| 3 | Kamjing | ![Kamjing_477.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Kamjing_477.png) | ![Kamjing_631.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Kamjing_631.png) |
+| 4 | Z09-LatYaySat | ![LatYaySat_1136.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/LatYaySat_1136.png) | ![LatYaySat_795.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/LatYaySat_795.png) |
+| 5 | Masterpiece Spring Revolution | ![MasterpieceSpringRev_1087.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MasterpieceSpringRev_1087.png) | ![MasterpieceSpringRev_634.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MasterpieceSpringRev_634.png) |
+| 6 | Masterpiece Uni Type | ![MasterpieceUniType_1029.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MasterpieceUniType_1029.png) | ![MasterpieceUniType_955.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MasterpieceUniType_955.png) |
+| 7 | Myanmar Ayar3 | ![MyanmarAyar3_121.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarAyar3_121.png) | ![MyanmarAyar3_783.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarAyar3_783.png) |
+| 8 | Myanmar Phiskel | ![MyanmarPhiskel_1117.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarPhiskel_1117.png) | ![MyanmarPhiskel_968.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarPhiskel_968.png) |
+| 9 | Myanmar Sanpya | ![MyanmarSanpya_812.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarSanpya_812.png) | ![MyanmarSanpya_818.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarSanpya_818.png) |
+| 10 | Myanmar Yin Mar | ![MyanmarYinMar_1530.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarYinMar_1530.png) | ![MyanmarYinMar_1566.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/MyanmarYinMar_1566.png) |
+| 11 | NKSSmart3 | ![NKSS_1492.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/NKSS_1492.png) | ![NKSS_356.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/NKSS_356.png) |
+| 12 | Z03-Press | ![Press_321.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Press_321.png) | ![Press_827.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Press_827.png) |
+| 13 | Pyidaungsu | ![Pyidaungsu_1242.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Pyidaungsu_1242.png) | ![Pyidaungsu_1342.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/Pyidaungsu_1342.png) |
+| 14 | Z01-UMoe | ![UMoe_1909.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/UMoe_1909.png) | ![UMoe_98.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/UMoe_98.png) |
+
+
 ## Hugging Face Link
 
 We first uploaded myOCR version 1.0 dataset to Hagging Face on Nov 18, 2024. You can also get myOCR from following link:   
