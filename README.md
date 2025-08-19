@@ -9,9 +9,9 @@ The dataset format is:
 <img-file-path>\t<text-label>
 ```
 
-## mytext2pic.sh
+## Text-to-Image Conversion Script  
 
-We used mytext2pic.sh code for conversion of Myanmar sentences into png files. The code is as follows:  
+We used the `mytext2pic.sh` script to convert Myanmar sentences into PNG image files. The code is as follows:    
 
 ```bash
 #!/bin/bash
@@ -41,7 +41,7 @@ done
 
 ## Random Samples
 
-We used 14 different fonts for our experiments and two random text image samples for each font are as shown below:  
+We used 14 different Myanmar fonts for our experiments. Two random text image samples for each font are shown in the table below:    
 
 | No | Font name | Text Image Sample-1 | Text Image Sample-2 |
 |----|-----------|---------------------|---------------------|
@@ -60,10 +60,22 @@ We used 14 different fonts for our experiments and two random text image samples
 | 13 | Pyidaungsu | ![Pyidaungsu_1242.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/doc/random_samples/Pyidaungsu_1242.png) | ![Pyidaungsu_1342.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/doc/random_samples/Pyidaungsu_1342.png) |
 | 14 | Z01-UMoe | ![UMoe_1909.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/doc/random_samples/UMoe_1909.png) | ![UMoe_98.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/doc/random_samples/UMoe_98.png) |
 
+## Distribution of Font Usage in Synthetic Text Images  
+
+The following figure illustrates the distribution of text lines across different fonts used in the synthetic dataset.    
+
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myOCR/blob/main/doc/fig/pie_chart_synthetic_txt.png" alt="pie chart of synthetic text images" width="500"/>  
+</p>  
+<div align="center">
+   Fig.1 Number of lines of each font used in the synthetic text images   
+</div> 
+
+<br>
 
 ## Hugging Face Link
 
-We first uploaded myOCR version 1.0 dataset to Hagging Face on Nov 18, 2024. You can also get myOCR from following link:   
+We first uploaded the myOCR version 1.0 dataset to Hugging Face on November 18, 2024. You can access the myOCR dataset at the following link:      
 [https://huggingface.co/datasets/LULab/myOCR](https://huggingface.co/datasets/LULab/myOCR)
 
 ## Citation  
