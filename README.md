@@ -1,5 +1,17 @@
 # myOCR (Optical Character Recognition Corpus for Myanmar Language or Burmese) 
 
+myOCR is a comprehensive synthetic dataset for Optical Character Recognition (OCR) of the Myanmar (Burmese) language. This resource addresses the critical shortage of open, high-quality datasets for Myanmar OCR, a significant barrier to developing robust document digitization tools for this low-resource language.
+
+We generated 25,790 synthetic text-line images using 14 diverse Myanmar font styles to ensure broad coverage and reduce data bias. The dataset supports end-to-end OCR model training and evaluation, from optical character recognition to post-processing error correction. Each image is paired with a corresponding word-segmented text label.
+
+## Experimental Findings  
+
+- The best-performing optical model (9,000 iterations) achieved a CHRF++ score of 97.90% and a Word Error Rate (WER) of 9.18%.
+- Post-OCR correction significantly improved results:
+ - Transformer-based correction reduced WER to 0.66% and increased CHRF++ to 99.31%.
+ - Statistical methods (N-gram/SymSpell) also reduced WER by nearly fivefold when combined with sequence modeling.
+- Error analysis revealed unique challenges in Myanmar OCR, including visual rendering vs. logical character order issues.
+  
 ## Data Format  
 
 The Burmese text data are word-segmented using underscore ("_") as the delimiter.
