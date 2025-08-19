@@ -41,6 +41,8 @@ done
 
 ## Random Samples
 
+We used 14 different fonts for our experiments and two random text image samples for each font are as shown below:  
+
 | No | Font name | Text Image Sample-1 | Text Image Sample-2 |
 |----|-----------|---------------------|---------------------|
 | 1 | Burmese Handwriting Style 04 | ![B_HW_1245.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/B_HW_1245.png) | ![B_HW_2240.png](https://github.com/ye-kyaw-thu/myOCR/raw/main/data/doc/random_samples/B_HW_2240.png) |
