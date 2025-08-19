@@ -12,6 +12,8 @@ The dataset format is:
 ## Citation  
 Please cite this if you use this dataset:  
 
-Thura Aung, Ye Kyaw Thu and Myat Noe Oo, "myOCR: Optical Character Recognition for Myanmar language with Post-OCR Error Correction", In Proceedings of the 19th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP 2024), Nov 11 to 15, 2024, Pattaya, Thailand.  
+Thura Aung, Ye Kyaw Thu and Myat Noe Oo, "myOCR: Optical Character Recognition for Myanmar language with Post-OCR Error Correction", In Proceedings of the 19th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP 2024), Nov 11 to 15, 2024, Pattaya, Thailand.   
+
+Paper link: [https://ieeexplore.ieee.org/document/10799448](https://ieeexplore.ieee.org/document/10799448)  
 
 
