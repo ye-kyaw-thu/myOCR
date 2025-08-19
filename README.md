@@ -39,6 +39,11 @@ do
 done
 ```
 
+## Hugging Face Link
+
+We first uploaded myOCR version 1.0 dataset to Hagging Face on Nov 18, 2024. You can also get myOCR from following link:   
+[https://huggingface.co/datasets/LULab/myOCR](https://huggingface.co/datasets/LULab/myOCR)
+
 ## Citation  
 Please cite this if you use this dataset:  
 
