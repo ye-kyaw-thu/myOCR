@@ -43,7 +43,9 @@ done
 
 We used 14 different Myanmar fonts for our experiments. Two random text image samples for each font are shown in the table below:    
 
+<div align="center">
 **Table 1:** Two randomly selected text image samples for each of the 14 Myanmar fonts utilized in the study  
+</div>
 
 | No | Font name | Text Image Sample-1 | Text Image Sample-2 |
 |----|-----------|---------------------|---------------------|
