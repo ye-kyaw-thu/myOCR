@@ -1,12 +1,90 @@
 # myOCR (Optical Character Recognition Corpus for Myanmar Language or Burmese) 
 
-The Burmese text data are word-segmented with the delimiter "_".  
-Line-level Text Images for OCR are under the folder dataset and zipped.  
+## Data Format  
 
-The dataset format is:  
+The Burmese text data are word-segmented using underscore ("_") as the delimiter.
+The dataset follows this format:
 
 ```
 <img-file-path>\t<text-label>
+```
+
+Example from train.txt:  
+
+```
+ye@lst-hpc3090:~/tmp/myOCR/data/ver1.0$ head train.txt
+Images/MasterpieceUniType_312.png       တပို့တွဲ_လ_တွင်_၂၉_ရက်_ရှိ_သည်
+Images/Press_1127.png   အားနာ_စရာ_ကြီး_အကြာကြီး_ရှာ_နေ_ရ_တယ်
+Images/MyanmarAyar3_664.png     စိတ်မပူ_ပါ_နဲ့_ရှာ_တွေ့_အောင်_ကြိုးစား_ပါ_မယ်
+Images/UMoe_1231.png    ဘူတာ_ကြီး_အချို့_မှာ_သာ_ရထား_ကို_ရေ_ဖြည့်_လို့_ရ_တာ
+Images/NKSS_164.png     သူ_ပျင်း_လာ_ရင်_အချိန်_မ_ရှိ_အခါ_မ_ရှိ_ဖုန်းဆက်_တယ်
+Images/B_HW_830.png     ဈေးနှုန်း_က_ဘယ်လောက်_လဲ
+Images/MyanmarYinMar_1344.png   ကိစ္စ_မ_ရှိ_ပါ_ဘူး
+Images/MyanmarYinMar_42.png     ကျောင်း_မှာ_မှတ်ပုံတင်ကြေး_ပေး_သည်
+Images/MasterpieceUniType_1496.png      ရှန်ဟိုင်း_မြို့_ရဲ့_လူဦးရေ_ဟာ_ဘယ်လောက်_လဲ
+Images/B_HW_440.png     အမေ_က_ခင်ဗျား_ကို_သူ_နဲ့အတူ_နေ_ခွင့်_မ_ပေး_ဘူး
+ye@lst-hpc3090:~/tmp/myOCR/data/ver1.0$
+```
+
+Example from valid.txt:  
+
+```
+ye@lst-hpc3090:~/tmp/myOCR/data/ver1.0$ head valid.txt
+Images/MasterpieceUniType_312.png       တပို့တွဲ_လ_တွင်_၂၉_ရက်_ရှိ_သည်
+Images/Pyidaungsu_207.png       နောက်_အပတ်_စနေ_နေ့_မှာ
+Images/Press_1365.png   နောက်ဆုံး_ရထား_က_ဘယ်_အချိန်_ရှိ_ပါ_သလဲ
+Images/B_HW_2295.png    နောက်_တစ်_ခေါက်_ထပ်_ဆို_ပါ_ဦး
+Images/MasterpieceUniType_2125.png      ကိုင်_ထား_ပါ
+Images/UMoe_1890.png    ခင်ဗျား_ဘယ်_နေရာ_ကို_ကြည့်_ချင်_လဲ
+Images/Press_287.png    အာရုဏ်ခင်း_လေ_က_တကယ်_ကို_ပဲ_သန့်ရှင်း_လတ်ဆတ်_သည်
+Images/MasterpieceUniType_838.png       ကျွန်တော်_က_ဆိုးလ်_မှာ_နေ_ပါ_တယ်
+Images/MyanmarSanpya_627.png    ဟွန်း_က_အလုပ်_မ_လုပ်_ဘူး
+Images/Pyidaungsu_639.png       မကြာခဏ_တွေ့ဆုံ_ရင်_အနေနီး_လာ_တာ_သဘာဝ_ပဲ
+ye@lst-hpc3090:~/tmp/myOCR/data/ver1.0$
+```  
+
+## Archive with 7z
+
+The line-level text images for OCR are stored in the data folder and compressed using 7z. Due to GitHub's file size limitations, we used the -v52m option to split the archive into 52MB volumes.  
+
+``` 
+ye@lst-hpc3090:~/tmp$ time 7z a -v52m Images.7z ./Images/
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=en_US.UTF-8 Threads:24 OPEN_MAX:1024
+
+Scanning the drive:
+1 folder, 25790 files, 91981953 bytes (88 MiB)
+
+Creating archive: Images.7z
+
+Add new data to archive: 1 folder, 25790 files, 91981953 bytes (88 MiB)
+
+
+Files read from disk: 25790
+Archive size: 85800971 bytes (82 MiB)
+Volumes: 2
+Everything is Ok
+
+real    0m4.250s
+user    0m8.873s
+sys     0m0.260s
+ye@lst-hpc3090:~/tmp$
+```
+
+The compression resulted in two split archive files:      
+
+``` 
+ye@lst-hpc3090:~/tmp$ ls -lh Images.7z.*
+-rw-rw-r-- 1 ye ye 52M Aug 19 20:13 Images.7z.001
+-rw-rw-r-- 1 ye ye 30M Aug 19 20:13 Images.7z.002
+ye@lst-hpc3090:~/tmp$
+```
+
+To extract all images, simply unzip the first volume file. The 7z utility will automatically handle the multi-volume extraction:    
+
+```
+7z x Images.7z.001
 ```
 
 ## Text-to-Image Conversion Script  
